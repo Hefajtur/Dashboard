@@ -1,0 +1,22 @@
+.img{
+    margin-top: 100px;
+    margin-left: 120px;
+}
+.main{
+    /* height: 100vh; */
+    height: auto;
+    width: 100%;
+}
+.text{
+    margin-top: 20px;
+}
+.image2{
+    margin-top: 50px;
+}
+.image4{
+    margin-top: 20px;
+}
+.google img{
+    width: 20px;
+    height: 20px;
+}

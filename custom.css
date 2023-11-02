@@ -1,0 +1,131 @@
+#sidebar{
+    background:#1C2434 ;
+    min-height: 100vh;
+}
+#sidebar .dropdown-menu.show {
+    display: block;
+    position: relative !important;
+    transform: inherit !important;
+    border: 0;
+}
+
+
+#sidebar .dropdown-toggle {
+    width: 100%;
+    text-align: left;
+    background: transparent;
+    border: none;
+}
+#sidebar .dropdown-toggle::after{
+    float: right;
+}
+#sidebar .dropdown-menu {
+
+    --bs-dropdown-color: #fff;
+    --bs-dropdown-bg: transparent;
+    --bs-dropdown-link-color: #fff;
+  
+}
+
+#mainbar{
+    background: #F5F5F5;
+}
+
+.row1{
+    background: #FFFFFF;
+/* Stroke */
+border: 1px solid #E2E8F0;
+/* Shadow */
+
+box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.07);
+border-radius: 2px;
+}
+.box{
+    background: #FFFFFF;
+    padding: 20px;
+}
+.box .card{
+    background: #FFFFFF;
+/* Stroke */
+border: 1px solid #E2E8F0;
+/* Shadow */
+
+box-shadow: 0px 8px 13px rgba(0, 0, 0, 0.07);
+border-radius: 2px;
+}
+
+.box1{
+    background: #FFFFFF;
+border: 1px dashed #E4E6EF;
+border-radius: 6px;
+}
+
+
+.card-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+
+}
+
+
+.card-content-text {
+    border: 1px dashed #cfcfcf;
+    padding: 0px 15px;
+    border-radius: 6px;
+}
+
+.card-content-text p {
+    margin: 0;
+}
+.do{
+    background: #FFFFFF;
+border: 1px dashed #E4E6EF;
+border-radius: 6px;
+}
+
+.did{
+    background: #FFFFFF;
+border: 1px dashed #E4E6EF;
+border-radius: 6px;
+}
+
+.bs-card-img {
+    position: relative;
+    margin: 0px auto 0px auto;
+}
+
+.profile_top_banner{
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.indicator {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #9adf30;
+    border-radius: 50%;
+    bottom: 0;
+    right: 3px;
+}
+
+.fol{
+    background: #F5F8FA;
+    
+}
+ 
+  @media only screen and (max-width:900px) { 
+    #sidebar{
+        min-height: inherit;
+    }
+    h5, .h5 {
+        font-size: 13px;
+    }
+  }
+ 
+
+
+
